@@ -150,6 +150,9 @@ h4 {
 .about {
     background-color: var(--bgColor-2);
     padding: 2rem var(--padding);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .about .container-images {
@@ -159,3 +162,19 @@ h4 {
 .about .container-images img {
     width: 60%;
 }
+
+.about .container-texts {
+    width: 35%;
+}
+
+p{
+    color: var(--secondaryColor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
