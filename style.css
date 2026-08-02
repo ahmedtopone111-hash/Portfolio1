@@ -123,7 +123,7 @@ h4 {
   transform: scale(1.2);
 }
 
-.container-images{
+.home .container-images{
     width: 45%;
     height: 90%;
     position: relative;
@@ -145,4 +145,16 @@ h4 {
 
 .container-images:hover .pic{
     left: 45%;
+}
+
+.about {
+    background-color: var(--bgColor-2);
+}
+
+.about .container-images {
+    width: 35%;
+}
+
+.about .container-images img {
+    width: 90%;
 }
