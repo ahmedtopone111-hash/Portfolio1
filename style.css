@@ -153,7 +153,8 @@ h4 {
 }
 
 .about .container-images {
-    width: 35%;
+    width: 20%;
+    height: auto;
 }
 
 .about .container-images img {
